@@ -8,7 +8,6 @@ function App() {
       <div className="app__body">
       <Sidebar />
       <Chat />
-      {/* <for commiting/> */}
       </div>
     </div>
   );
