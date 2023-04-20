@@ -2,7 +2,7 @@ import React from 'react'
 import './Chat.css'
 import Avatar from "@mui/material/Avatar";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import ChatIcon from "@mui/icons-material/Chat";
+// import ChatIcon from "@mui/icons-material/Chat";
 import SearchOutlined from "@mui/icons-material/SearchOutlined";
 import IconButton from "@mui/material/IconButton";
 import MicIcon from "@mui/icons-material/Mic";
