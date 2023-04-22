@@ -8,6 +8,7 @@ import ChatIcon from "@mui/icons-material/Chat";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { SearchOutlined } from "@mui/icons-material";
 import SidebarChat from "./SidebarChat";
+// import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -34,9 +35,10 @@ function Sidebar() {
 	  </div>
 	  
 	  <div className="sidebar__chats">
-		<SidebarChat/>
-		<SidebarChat/>
-		<SidebarChat/>
+      {/* <Link to='/chatuu'><SidebarChat name="yanki"/></Link> */}
+		<SidebarChat last="okay" name="Arjun"/>
+		<SidebarChat last="hi.." name='Guri'/>
+		<SidebarChat last="yes it was oky" name="yanki"/>
 	  </div>
     </div>
   );

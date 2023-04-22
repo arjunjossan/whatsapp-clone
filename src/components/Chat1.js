@@ -9,7 +9,7 @@ import MicIcon from "@mui/icons-material/Mic";
 import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 import  AttachFile  from '@mui/icons-material/AttachFile';
 
-function Chat() {
+function Chat1() {
   return (
 	<div className='chat'>
 	  <div className='chat__header'>
@@ -43,7 +43,7 @@ function Chat() {
 			
 			<p className='chat__message chat__reciever'>
 			<span className='chat__name'>Mani</span>
-			How! are u arjun..
+			How! are u boond gya oye arjun..
 			<span className='chat__timestamp'>
 				{new Date().toUTCString()}
 			</span>
@@ -90,4 +90,4 @@ function Chat() {
   )
 }
 
-export default Chat
+export default Chat1
